@@ -1,3 +1,4 @@
+#if false
 Console.WriteLine("Hello World");
 
 IEnumerable<int> ids = new[] { 10, 20 };
@@ -8,3 +9,4 @@ Console.WriteLine(ids2.Count());
 Console.WriteLine(ReferenceEquals(ids, ids2));
 Console.WriteLine(ids.GetType());
 Console.WriteLine(ids2.GetType());
+#endif
