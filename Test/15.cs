@@ -1,3 +1,4 @@
+#if false
 using System.Drawing;
 using System.Text.Json;
 using System.Text.Json.Serialization;
@@ -58,3 +59,4 @@ public class JsonHexadecimalColorConverter : JsonConverter<Color>
         writer.WriteStringValue(colorString);
     }
 }
+#endif
