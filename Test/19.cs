@@ -1,3 +1,4 @@
+#if false
 Console.WriteLine("dick");
 
 var s = $"str {string.Join(" ", "dog", "cat", "mouse")}";
@@ -10,3 +11,4 @@ Console.WriteLine(s3);
 var s4 = $"str {string.Join(" ", 
     "dog", "cat", "mouse")}";
 Console.WriteLine(s4);
+#endif
