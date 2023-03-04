@@ -1,6 +1,6 @@
+#if false
 using System.Diagnostics.CodeAnalysis;
 
-#if true
     var elements = GenerateElements();
     elements.ForEach(Console.WriteLine);
     Console.WriteLine();
