@@ -1,3 +1,4 @@
+#if false
 Console.WriteLine();
 
 await DoWrapped();
@@ -43,3 +44,4 @@ public class MyClass
         var l = person.Name.Length;
     }
 }
+#endif
