@@ -1,3 +1,4 @@
+#if false
 Console.WriteLine();
 
 var result = await GetIntAsync()
@@ -22,7 +23,7 @@ public static class FunctionalExtensions
         this Task<TSource> task,
         Func<TSource, Task<TResult>> func) 
         =>
-        await func(await task);
+            await func(await task);
     
     public static async Task<TSource> DoAsync<TSource>(
         this Task<TSource> task,
@@ -32,3 +33,4 @@ public static class FunctionalExtensions
         return await task;
     }
 }
+#endif
