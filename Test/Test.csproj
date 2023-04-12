@@ -10,5 +10,8 @@
     <PropertyGroup>
 <!--        <WarningsAsErrors>CS8629</WarningsAsErrors>-->
     </PropertyGroup>
+    <ItemGroup>
+      <PackageReference Include="EBind.NET" Version="1.0.2" />
+    </ItemGroup>
 
 </Project>

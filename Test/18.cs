@@ -1,3 +1,4 @@
+#if false
 using System.Collections.Immutable;
 
 #if true
@@ -87,4 +88,5 @@ public class Element
     
     public override string ToString() => $"{SourceId} -> {DestId}";
 }
+#endif
 #endif
