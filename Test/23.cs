@@ -1,3 +1,4 @@
+#if false
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using EBind;
@@ -76,3 +77,4 @@ internal class NotifyPropertyChangedBase : INotifyPropertyChanged
         OnPropertyChanged(propertyName);
     }
 }
+#endif
