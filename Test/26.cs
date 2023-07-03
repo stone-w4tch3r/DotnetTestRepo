@@ -1,3 +1,4 @@
+#if false
 Console.WriteLine();
 
 var dm = new DerivedMeeting();
@@ -29,3 +30,4 @@ class DerivedMeeting : BaseMeeting
 {
     public new DerivedSpeaker Speaker { get; } = new ();
 }
+#endif
