@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZxingQrTest", "ZxingQrTest\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentResultsTest", "FluentResultsTest\FluentResultsTest.csproj", "{90C3FF9F-295D-40C3-98CC-72BECD4453EC}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharp", "FSharp\FSharp.fsproj", "{6477BA03-91E9-4677-A7A0-3F5D8B08A2CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{90C3FF9F-295D-40C3-98CC-72BECD4453EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90C3FF9F-295D-40C3-98CC-72BECD4453EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90C3FF9F-295D-40C3-98CC-72BECD4453EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6477BA03-91E9-4677-A7A0-3F5D8B08A2CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6477BA03-91E9-4677-A7A0-3F5D8B08A2CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6477BA03-91E9-4677-A7A0-3F5D8B08A2CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6477BA03-91E9-4677-A7A0-3F5D8B08A2CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
