@@ -1,3 +1,4 @@
+# if false
 Console.WriteLine("hello");
 
 var myClass = new MyClass { Text = "world" };
@@ -11,3 +12,4 @@ public class MyClass
         Console.WriteLine(Text);
     }
 }
+# endif
