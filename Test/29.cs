@@ -4,10 +4,14 @@ return;
 int[] Distinct(int[] src)
 {
     var result = new List<int>(capacity: src.Length);
+    var hashed = new HashSet<int>();
+
     foreach (var i in src)
     {
-        if (!result.Contains(i))
+        if (hashed.Add(i))
+        {
             result.Add(i);
+        }
     }
 
     return result.ToArray();
