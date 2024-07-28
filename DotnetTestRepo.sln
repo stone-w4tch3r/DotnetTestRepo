@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{5035DB29-D5F6-4D68-B2CD-CBE4E51B1FB0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicCsharpTest", "BasicCsharpTest\BasicCsharpTest.csproj", "{5035DB29-D5F6-4D68-B2CD-CBE4E51B1FB0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DryIocTest", "DryIocTest\DryIocTest.csproj", "{2519A3D7-0925-47C2-BB59-3930152FD824}"
 EndProject

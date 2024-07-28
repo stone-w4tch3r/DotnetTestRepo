@@ -1,7 +1,7 @@
 #if false
 using System.Diagnostics.CodeAnalysis;
 
-namespace Test;
+namespace BasicCsharpTest;
 
 public record Foo(float? A);
 
