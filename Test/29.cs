@@ -1,3 +1,5 @@
+#if false
+
 Console.WriteLine("Start");
 return;
 
@@ -27,3 +29,5 @@ IEnumerable<T> FilterLast<T>(IEnumerable<T> source, int n)
         buffer.Enqueue(item);
     }
 }
+
+# endif
