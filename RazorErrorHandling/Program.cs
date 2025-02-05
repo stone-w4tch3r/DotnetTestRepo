@@ -3,6 +3,7 @@ using RazorErrorHandling.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services
+builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddSingleton<ProductService>();
 builder.Services.AddRazorPages();
 builder.Services.AddHttpContextAccessor();
