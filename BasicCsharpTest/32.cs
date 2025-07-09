@@ -1,3 +1,5 @@
+# if false
+
 using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
 using System.Net;
@@ -289,3 +291,5 @@ public sealed record Host
         return (host, port);
     }
 }
+
+# endif
